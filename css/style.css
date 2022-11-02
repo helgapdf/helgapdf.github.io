@@ -9,6 +9,34 @@ body {
   margin: 0;
   margin-bottom: -15px;
 }
+
+.navigation {
+  color: white;
+  font-size: 30px;
+  position: fixed;
+  text-decoration: solid;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  width: 100vw;
+  height: 30vw;
+  justify-content: space-around;
+  z-index: 10;
+}
+.navigation__item1 {
+  margin-left: 0vw;
+}
+.navigation__item2 {
+  margin-left: -8vw;
+}
+.navigation__item3 {
+  margin-left: -13vw;
+}
+.navigation__item4 {
+  margin-left: -9vw;
+}
+
 img {
   position: relative;
 }
